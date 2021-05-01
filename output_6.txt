@@ -1,0 +1,97 @@
+""Running Full Party Test""
+""Checking Dragon Class""
+""This will kill a monster with loot""
+""Your players should automatically loot the monster!""
+Ormr the dragon has entered the battle
+Inserting entity: Ormr
+Jim the Strong the warrior has entered the battle
+Inserting entity: Jim the Strong
+Healer McMedic the priest has entered the battle
+Inserting entity: Healer McMedic
+Uniden the mage has entered the battle
+Inserting entity: Uniden
+Elva the rogue has entered the battle
+Inserting entity: Elva
+10
+Rogue: Elva
+	Current HP: 7
+	Agility: 17
+--------------------------------
+9
+Mage: Uniden
+	Current HP: 5
+	Intelligence: 17
+--------------------------------
+6
+Priest: Healer McMedic
+	Current HP: 9
+	Wisdom: 16
+--------------------------------
+4
+Warrior: Jim the Strong
+	Current HP: 15
+	Strength: 17
+--------------------------------
+30
+Dragon: Ormr
+	Current HP: 350
+	Strength: 50
+Uniden uses Staff Attack on target Ormr dealing 4 damage.
+Jim the Strong uses Strike on target Ormr dealing 8 damage.
+Elva uses Blindside on target Ormr dealing 20 damage.
+10
+Rogue: Elva
+	Current HP: 7
+	Agility: 17
+--------------------------------
+9
+Mage: Uniden
+	Current HP: 5
+	Intelligence: 17
+--------------------------------
+6
+Priest: Healer McMedic
+	Current HP: 9
+	Wisdom: 16
+--------------------------------
+4
+Warrior: Jim the Strong
+	Current HP: 15
+	Strength: 17
+--------------------------------
+30
+Dragon: Ormr
+	Current HP: 318
+	Strength: 50
+Ormr uses Bite on target Uniden dealing 25 damage.
+Uniden dies
+Entity::~Entity()
+inventory dtr called
+Ormr uses Tail Slap on target Healer McMedic dealing 4 damage.
+Ormr uses Fire Breath on target Jim the Strong dealing 40 damage.
+Jim the Strong dies
+Entity::~Entity()
+inventory dtr called
+Ormr uses Tail Slap on target Elva dealing 4 damage.
+10
+Rogue: Elva
+	Current HP: 3
+	Agility: 17
+--------------------------------
+6
+Priest: Healer McMedic
+	Current HP: 5
+	Wisdom: 16
+--------------------------------
+30
+Dragon: Ormr
+	Current HP: 318
+	Strength: 50
+""**********************************""
+""**********************************""
+Entity::~Entity()
+inventory dtr called
+Entity::~Entity()
+inventory dtr called
+Entity::~Entity()
+inventory dtr called

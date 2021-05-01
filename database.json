@@ -49,6 +49,16 @@
           "inventory" : []
         }, 
         {
+          "UID" : 30, 
+          "hp" : 350,
+          "Name" : "Ormr",
+          "race" : "Dragon",
+          "class" : "Dragon",
+          "strength" : 50,
+          "weapon_damage" : 4, 
+          "inventory" : []
+        }, 
+        {
             "UID" : 4, 
             "hp" : 15,
             "Name" : "Jim the Strong",
